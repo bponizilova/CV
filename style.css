@@ -1,0 +1,81 @@
+body{
+    margin:0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Maven Pro', helvetica, arial, sans-serif;
+    color: rgb(59, 86, 112);
+    background-color: rgb(235, 236, 236);
+    overflow: auto;
+}
+header{
+    background-image: url(podklady/obrazky/IMG_8503\ kopie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+    text-align: center;
+    margin: 0;
+}
+header h1{    
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    display: inline-block;
+}
+.menu{
+margin: 20px 0;
+text-align: center;
+padding: 0;
+background-color: rgb(59, 86, 112);
+}
+.menu a{
+    color: rgb(235, 236, 236);
+    text-decoration: none;
+    padding: 20px 30px;
+    display: inline-block;
+}
+.menu a :hover,
+.menu a :focus,
+.menu a :active{
+    background-color: rgb(93, 116, 138);
+}
+img{
+    border:2px solid rgb(253, 246, 237);
+    border-radius: 10px;
+    width: 100px;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+
+}
+.soucasnost{
+    text-align: right;
+}
+.zkusenosti,
+.vzdelani,
+.schopnosti,
+.vlastnosti{   
+    background-color: rgb(253, 245, 235);
+    padding: 50px;
+}
+.kontakt{
+    padding: 30px 50px;
+
+    margin-bottom: 50px;
+}
+.kontakt img{
+    float: left;
+    margin-right: 30px;
+    overflow: auto;
+
+}
+footer{
+    text-align: center;
+    font-style: normal;
+    color:rgb(253, 246, 237);
+    background-color:rgb(59, 86, 112);
+    padding: 20px;
+}
