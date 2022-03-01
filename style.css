@@ -1,5 +1,6 @@
 body{
-    margin:0;
+    margin: 0 auto;
+  /*  max-width: 70em; */
     padding: 0;
     text-align: left;
     font-size: 16px;
@@ -12,7 +13,7 @@ body{
     background-image: url(podklady/obrazky/IMG_8503\ kopie.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 100px 0;
+    padding: 160px 0;
     text-align: center;
     margin: 0;
 }
@@ -20,6 +21,26 @@ h1{
     padding: 0;
     margin: 0;
 }
+
+.nahoru{
+    margin: 0px;
+    background-color: rgb(59, 86, 112);
+    text-align: right;
+    padding-top: 5px;
+    padding-bottom: 0ch;
+
+}
+.nahoru a{
+    color: rgb(235, 236, 236);
+    text-decoration: none;
+    padding: 5px 20px;
+}
+.nahoru a:hover,
+.nahoru a:focus,
+.nahoru a:active{
+    background-color: rgb(93, 116, 138);
+}
+
 .menu li{
     display: inline-block;
 }
@@ -42,7 +63,7 @@ background-color: rgb(59, 86, 112);
 }
 img{
     border:2px solid rgb(253, 246, 237);
-    border-radius: 10px;
+    border-radius: 3px;
     width: 100px;
 }
 
@@ -59,12 +80,15 @@ th, td{
 .schopnosti,
 .vlastnosti{   
     background-color: rgb(253, 250, 245);
-    padding: 50px;
+    padding: 70px 50px;
     border-bottom: 1px solid rgb(68, 97, 125);
     }
 .kontakt{
+    background-image: url(podklady/obrazky/IMG_8503orez.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
     padding: 30px 50px;
-    margin-bottom: 50px;
 }
 .kontakt img{
     float: left;
@@ -77,11 +101,21 @@ footer{
     font-style: normal;
     color:rgb(253, 246, 237);
     background-color:rgb(59, 86, 112);
-    padding: 20px;
+    padding: 2px;
 }
 li{
   display: block;
 }
 .kontakt{
     overflow: auto;
+}
+li a{
+    color: rgb(54, 83, 110);
+    font-weight: 500;
+    text-decoration: none;
+}
+li a:hover,
+li a:focus,
+li a:active{
+    color: rgb(105, 127, 147);
 }
